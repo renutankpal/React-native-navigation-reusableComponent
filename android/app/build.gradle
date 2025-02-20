@@ -129,11 +129,13 @@ dependencies {
     }
 }
 project.ext.vectoricons = [
-    iconFontNames: ['MaterialCommunityIcons.ttf', 'Ionicons.ttf','AntDesign.ttf'] //name of all the fonts added from node_modules in step 1.
+    iconFontNames: ['MaterialCommunityIcons.ttf','FontAwesome6.ttf','FontAwesome.ttf', 'Ionicons.ttf','AntDesign.ttf'] //name of all the fonts added from node_modules in step 1.
 ]
 
 project.ext.react = [
-    enableHermes: true,  // Set this to true
+    enableHermes: false
+
+    //enableHermes: true,  // Set this to true
 ]
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

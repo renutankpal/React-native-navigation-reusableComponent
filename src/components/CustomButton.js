@@ -14,22 +14,23 @@ const CustomButton = ({ title, onPress, colors = ['#4274DA', '#00BFFF'], style, 
 
 const styles = StyleSheet.create({
   buttonContainer: {
-    borderRadius: 8,
+    borderRadius: 20,
     overflow: 'hidden',
-    marginVertical: 10,
   },
   button: {
-    paddingVertical: 15,
+    paddingVertical: 10,
     paddingHorizontal: 20,
-    alignItems: 'center',
+    width:'90%',
+    alignSelf: 'center',
     justifyContent: 'center',
+    borderRadius: 20,
+    margin:10
   },
   text: {
     color: '#fff',
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: 'bold',
-    textAlign: 'center', 
-
+    textAlign: 'center',
   },
 });
 

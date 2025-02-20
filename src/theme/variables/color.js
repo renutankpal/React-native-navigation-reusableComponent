@@ -1,0 +1,15 @@
+export default {
+  blue: '#0058BD',
+  orange: '#f06827',
+  white: '#fff',
+  black: '#000',
+  grey_bg: '#F2F2F2',
+  bg: '#f0f0f0',
+  red: 'red',
+  grey: '#707070',
+  grey0: '#b5b5b5',
+  light_grey: '#7d7d7d',
+  bgColor: '#f1f5f8',
+  dodgerBlue: '#0058bd',
+  gray74: '#748697',
+};
